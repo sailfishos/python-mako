@@ -11,6 +11,7 @@ URL:        https://www.makotemplates.org/
 Source0:    %{name}-%{version}.tar.bz2
 BuildArch:      noarch
 BuildRequires:  python3-devel
+BuildRequires:  python3-setuptools
 Requires:       python3-markupsafe
 
 %description
